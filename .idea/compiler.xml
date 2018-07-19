@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="app-common" />
-        <module name="Dubbo-Docker-Jenkins" />
         <module name="gaoxi-analysis" />
         <module name="gaoxi-common-service-facade" />
         <module name="gaoxi-controller" />
@@ -20,13 +19,13 @@
     <bytecodeTargetLevel>
       <module name="app-common" target="1.8" />
       <module name="Dubbo-Docker-Jenkins" target="1.8" />
-      <module name="gaoxi-analysis" target="1.5" />
+      <module name="gaoxi-analysis" target="1.8" />
       <module name="gaoxi-common-service-facade" target="1.8" />
-      <module name="gaoxi-controller" target="1.5" />
-      <module name="gaoxi-order" target="1.5" />
-      <module name="gaoxi-product" target="1.5" />
-      <module name="gaoxi-redis" target="1.5" />
-      <module name="gaoxi-user" target="1.5" />
+      <module name="gaoxi-controller" target="1.8" />
+      <module name="gaoxi-order" target="1.8" />
+      <module name="gaoxi-product" target="1.8" />
+      <module name="gaoxi-redis" target="1.8" />
+      <module name="gaoxi-user" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

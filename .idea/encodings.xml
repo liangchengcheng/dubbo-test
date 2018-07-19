@@ -2,6 +2,12 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gaoxi-Analysis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gaoxi-Controller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gaoxi-Order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gaoxi-Product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gaoxi-Redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gaoxi-User" charset="UTF-8" />
   </component>
 </project>
