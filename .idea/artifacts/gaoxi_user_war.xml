@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gaoxi-user:war">
+    <output-path>$PROJECT_DIR$/Gaoxi-User/target</output-path>
+    <root id="archive" name="gaoxi-user-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="gaoxi-user:war exploded" />
+    </root>
+  </artifact>
+</component>

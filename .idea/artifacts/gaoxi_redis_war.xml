@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gaoxi-redis:war">
+    <output-path>$PROJECT_DIR$/Gaoxi-Redis/target</output-path>
+    <root id="archive" name="gaoxi-redis-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="gaoxi-redis:war exploded" />
+    </root>
+  </artifact>
+</component>

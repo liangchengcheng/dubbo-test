@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dubbo-Docker-Jenkins.iml" filepath="$PROJECT_DIR$/Dubbo-Docker-Jenkins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/app-common.iml" filepath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/app-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gaoxi-Analysis/gaoxi-analysis.iml" filepath="$PROJECT_DIR$/Gaoxi-Analysis/gaoxi-analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/gaoxi-common-service-facade.iml" filepath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/gaoxi-common-service-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gaoxi-Controller/gaoxi-controller.iml" filepath="$PROJECT_DIR$/Gaoxi-Controller/gaoxi-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gaoxi-Order/gaoxi-order.iml" filepath="$PROJECT_DIR$/Gaoxi-Order/gaoxi-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gaoxi-Product/gaoxi-product.iml" filepath="$PROJECT_DIR$/Gaoxi-Product/gaoxi-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gaoxi-Redis/gaoxi-redis.iml" filepath="$PROJECT_DIR$/Gaoxi-Redis/gaoxi-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gaoxi-User/gaoxi-user.iml" filepath="$PROJECT_DIR$/Gaoxi-User/gaoxi-user.iml" />
+    </modules>
+  </component>
+</project>

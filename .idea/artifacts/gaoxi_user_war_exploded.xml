@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="gaoxi-user:war exploded">
+    <output-path>$PROJECT_DIR$/Gaoxi-User/target/gaoxi-user-0.0.1-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="gaoxi-user" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/Gaoxi-User/target/gaoxi-user-0.0.1-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="gaoxi-user/web/Web" />
+    </root>
+  </artifact>
+</component>

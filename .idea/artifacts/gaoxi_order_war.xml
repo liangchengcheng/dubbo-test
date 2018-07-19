@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gaoxi-order:war">
+    <output-path>$PROJECT_DIR$/Gaoxi-Order/target</output-path>
+    <root id="archive" name="gaoxi-order-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="gaoxi-order:war exploded" />
+    </root>
+  </artifact>
+</component>
