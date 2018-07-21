@@ -23,7 +23,7 @@ public class AccessAuthEntity implements Serializable {
     private boolean isLogin;
 
     /** 当前接口的访问权限 */
-    private String permission;
+        private String permission;
 
     public AccessAuthEntity() {
     }
