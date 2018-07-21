@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="796f0023-5c3f-409c-aa75-891cb5a67382" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/exception/CommonBizException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/exception/ExpCodeEnum.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/utils/AnnotationUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/utils/ClassUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/utils/EnumUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/utils/ExpPrefixUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/utils/KeyGenerator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/utils/RedisPrefixUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/exception/CommonSysException.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/exception/CommonBizException.java" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/exception/CommonBizException.java" />
+      <change beforePath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/exception/ExpCodeEnum.java" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/exception/ExpCodeEnum.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,41 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EnumUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/utils/EnumUtil.java">
+      <file leaf-file-name="CommonSysException.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/exception/CommonSysException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExpPrefixUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/utils/ExpPrefixUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KeyGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/utils/KeyGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RedisPrefixUtil.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/utils/RedisPrefixUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            <state relative-caret-position="270">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -141,14 +106,15 @@
         <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/entity/order/OrdersEntity.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/context/OrderProcessContext.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/entity/user/AccessAuthEntity.java" />
-        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/exception/CommonBizException.java" />
-        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/exception/ExpCodeEnum.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/utils/AnnotationUtil.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/utils/ClassUtil.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/utils/EnumUtil.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/utils/ExpPrefixUtil.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/utils/KeyGenerator.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/utils/RedisPrefixUtil.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/exception/ExpCodeEnum.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/exception/CommonBizException.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/exception/CommonSysException.java" />
       </list>
     </option>
   </component>
@@ -170,7 +136,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="368" />
+    <option name="x" value="632" />
     <option name="y" value="119" />
     <option name="width" value="1327" />
     <option name="height" value="663" />
@@ -388,16 +354,15 @@
       <option name="presentableId" value="Default" />
       <updated>1531986421047</updated>
       <workItem from="1531986423078" duration="8153000" />
-      <workItem from="1532049845100" duration="9113000" />
+      <workItem from="1532049845100" duration="9978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17266000" />
+    <option name="totallyTimeSpent" value="18131000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="368" y="119" width="1327" height="663" extended-state="0" />
-    <editor active="true" />
+    <frame x="632" y="119" width="1327" height="663" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -413,7 +378,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22178988" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22178988" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -452,19 +417,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/enumeration/user/UserTypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="e#671#672#0" expanded="false" />
-            <element signature="e#698#699#0" expanded="false" />
-            <element signature="e#742#743#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -941,7 +893,7 @@
         <state relative-caret-position="225">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -951,7 +903,7 @@
         <state relative-caret-position="345">
           <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1017,33 +969,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/exception/CommonBizException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/exception/ExpCodeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding>
-            <element signature="e#5019#5020#0" expanded="true" />
-            <element signature="e#5046#5047#0" expanded="true" />
-            <element signature="e#5080#5081#0" expanded="true" />
-            <element signature="e#5110#5111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/utils/AnnotationUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1053,8 +984,8 @@
         <state relative-caret-position="225">
           <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2529#2539#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2529#2539#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1085,8 +1016,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/utils/RedisPrefixUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        <state relative-caret-position="90">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/exception/ExpCodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5018#5019#0" expanded="true" />
+            <element signature="e#5045#5046#0" expanded="true" />
+            <element signature="e#5079#5080#0" expanded="true" />
+            <element signature="e#5109#5110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/exception/CommonBizException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/exception/CommonSysException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding />
         </state>
       </provider>

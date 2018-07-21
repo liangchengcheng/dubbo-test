@@ -2,11 +2,10 @@ package com.gaoxi.exception;
 
 import java.io.Serializable;
 
+import static com.gaoxi.utils.ExpPrefixUtil.*;
+
 /**
- * @Author 大闲人柴毛毛
- * @Date 2017/10/27 下午10:37
  * 全局的异常状态码 和 异常描述
- *
  * PS:异常码一共由5位组成，前两位为固定前缀，请参考{@link com.gaoxi.utils.ExpPrefixUtil}
  */
 public enum ExpCodeEnum implements Serializable {
