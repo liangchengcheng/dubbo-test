@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="796f0023-5c3f-409c-aa75-891cb5a67382" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/order/OrderInsertReq.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/order/OrderProcessReq.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/order/OrderQueryReq.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/order/OrderUpdateReq.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/BrandInsertReq.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/BrandQueryReq.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/BrandUpdateReq.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/CategoryQueryReq.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/ProdInsertReq.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/ProdQueryReq.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/ProdUpdateReq.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/AdminCreateReq.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/LocationCreateReq.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/LocationUpdateReq.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/LoginReq.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/RegisterReq.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/RoleMenuReq.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/RolePermissionReq.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/UserQueryReq.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/UserStateReq.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,108 +39,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OrderProcessReq.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/order/OrderProcessReq.java">
+      <file leaf-file-name="UserQueryReq.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/UserQueryReq.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-439">
-              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="135">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#625#626#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#749#750#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#869#870#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
-                <element signature="e#928#929#0" expanded="true" />
-                <element signature="e#969#970#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#942#943#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+                <element signature="e#1061#1062#0" expanded="true" />
+                <element signature="e#1093#1094#0" expanded="true" />
+                <element signature="e#1121#1122#0" expanded="true" />
+                <element signature="e#1163#1164#0" expanded="true" />
+                <element signature="e#1197#1198#0" expanded="true" />
+                <element signature="e#1228#1229#0" expanded="true" />
+                <element signature="e#1255#1256#0" expanded="true" />
+                <element signature="e#1295#1296#0" expanded="true" />
+                <element signature="e#1327#1328#0" expanded="true" />
+                <element signature="e#1363#1364#0" expanded="true" />
+                <element signature="e#1394#1395#0" expanded="true" />
+                <element signature="e#1443#1444#0" expanded="true" />
+                <element signature="e#1483#1484#0" expanded="true" />
+                <element signature="e#1520#1521#0" expanded="true" />
+                <element signature="e#1552#1553#0" expanded="true" />
+                <element signature="e#1603#1604#0" expanded="true" />
+                <element signature="e#1645#1646#0" expanded="true" />
+                <element signature="e#1678#1679#0" expanded="true" />
+                <element signature="e#1707#1708#0" expanded="true" />
+                <element signature="e#1751#1752#0" expanded="true" />
+                <element signature="e#1787#1788#0" expanded="true" />
+                <element signature="e#1831#1832#0" expanded="true" />
+                <element signature="e#1871#1872#0" expanded="true" />
+                <element signature="e#1937#1938#0" expanded="true" />
+                <element signature="e#1995#1996#0" expanded="true" />
+                <element signature="e#2037#2038#0" expanded="true" />
+                <element signature="e#2075#2076#0" expanded="true" />
+                <element signature="e#2137#2138#0" expanded="true" />
+                <element signature="e#2191#2192#0" expanded="true" />
+                <element signature="e#2238#2239#0" expanded="true" />
+                <element signature="e#2280#2281#0" expanded="true" />
+                <element signature="e#2351#2352#0" expanded="true" />
+                <element signature="e#2413#2414#0" expanded="true" />
+                <element signature="e#2448#2449#0" expanded="true" />
+                <element signature="e#2479#2480#0" expanded="true" />
+                <element signature="e#2527#2528#0" expanded="true" />
+                <element signature="e#2567#2568#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderQueryReq.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/order/OrderQueryReq.java">
+      <file leaf-file-name="UserStateReq.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/UserStateReq.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="390">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
-                <element signature="e#1159#1160#0" expanded="true" />
-                <element signature="e#1184#1185#0" expanded="true" />
-                <element signature="e#1220#1221#0" expanded="true" />
-                <element signature="e#1248#1249#0" expanded="true" />
-                <element signature="e#1284#1285#0" expanded="true" />
-                <element signature="e#1316#1317#0" expanded="true" />
-                <element signature="e#1366#1367#0" expanded="true" />
-                <element signature="e#1408#1409#0" expanded="true" />
-                <element signature="e#1445#1446#0" expanded="true" />
-                <element signature="e#1478#1479#0" expanded="true" />
-                <element signature="e#1530#1531#0" expanded="true" />
-                <element signature="e#1574#1575#0" expanded="true" />
-                <element signature="e#1610#1611#0" expanded="true" />
-                <element signature="e#1642#1643#0" expanded="true" />
-                <element signature="e#1692#1693#0" expanded="true" />
-                <element signature="e#1734#1735#0" expanded="true" />
-                <element signature="e#1778#1779#0" expanded="true" />
-                <element signature="e#1818#1819#0" expanded="true" />
-                <element signature="e#1884#1885#0" expanded="true" />
-                <element signature="e#1942#1943#0" expanded="true" />
-                <element signature="e#1980#1981#0" expanded="true" />
-                <element signature="e#2014#2015#0" expanded="true" />
-                <element signature="e#2068#2069#0" expanded="true" />
-                <element signature="e#2114#2115#0" expanded="true" />
-                <element signature="e#2151#2152#0" expanded="true" />
-                <element signature="e#2184#2185#0" expanded="true" />
-                <element signature="e#2236#2237#0" expanded="true" />
-                <element signature="e#2280#2281#0" expanded="true" />
-                <element signature="e#2322#2323#0" expanded="true" />
-                <element signature="e#2359#2360#0" expanded="true" />
-                <element signature="e#2420#2421#0" expanded="true" />
-                <element signature="e#2472#2473#0" expanded="true" />
-                <element signature="e#2518#2519#0" expanded="true" />
-                <element signature="e#2560#2561#0" expanded="true" />
-                <element signature="e#2630#2631#0" expanded="true" />
-                <element signature="e#2692#2693#0" expanded="true" />
-                <element signature="e#2736#2737#0" expanded="true" />
-                <element signature="e#2776#2777#0" expanded="true" />
-                <element signature="e#2842#2843#0" expanded="true" />
-                <element signature="e#2900#2901#0" expanded="true" />
-                <element signature="e#2940#2941#0" expanded="true" />
-                <element signature="e#2976#2977#0" expanded="true" />
-                <element signature="e#3034#3035#0" expanded="true" />
-                <element signature="e#3084#3085#0" expanded="true" />
-                <element signature="e#3125#3126#0" expanded="true" />
-                <element signature="e#3162#3163#0" expanded="true" />
-                <element signature="e#3222#3223#0" expanded="true" />
-                <element signature="e#3274#3275#0" expanded="true" />
-                <element signature="e#3318#3319#0" expanded="true" />
-                <element signature="e#3358#3359#0" expanded="true" />
-                <element signature="e#3424#3425#0" expanded="true" />
-                <element signature="e#3482#3483#0" expanded="true" />
-                <element signature="e#3521#3522#0" expanded="true" />
-                <element signature="e#3555#3556#0" expanded="true" />
-                <element signature="e#3610#3611#0" expanded="true" />
-                <element signature="e#3656#3657#0" expanded="true" />
-                <element signature="e#3692#3693#0" expanded="true" />
-                <element signature="e#3724#3725#0" expanded="true" />
-                <element signature="e#3774#3775#0" expanded="true" />
-                <element signature="e#3816#3817#0" expanded="true" />
-                <element signature="e#3850#3851#0" expanded="true" />
-                <element signature="e#3880#3881#0" expanded="true" />
-                <element signature="e#3926#3927#0" expanded="true" />
-                <element signature="e#3964#3965#0" expanded="true" />
-                <element signature="e#3999#4000#0" expanded="true" />
-                <element signature="e#4030#4031#0" expanded="true" />
-                <element signature="e#4078#4079#0" expanded="true" />
-                <element signature="e#4118#4119#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
+                <element signature="e#593#594#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#682#683#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,23 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Gaoxi-Redis/src/main/java/com/gaoxi/redis/RedisConn.java" />
-        <option value="$PROJECT_DIR$/Gaoxi-Redis/src/main/java/com/gaoxi/redis/GaoxiRdisApplication.java" />
-        <option value="$PROJECT_DIR$/Gaoxi-Redis/src/main/java/com/gaoxi/redis/CacheService.java" />
-        <option value="$PROJECT_DIR$/Gaoxi-Redis/src/main/java/com/gaoxi/redis/service/RedisServiceImpl.java" />
-        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/enumeration/BaseEnum.java" />
-        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/enumeration/OrderEnum.java" />
-        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/enumeration/HttpMethodEnum.java" />
-        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/enumeration/user/UserStateEnum.java" />
-        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/enumeration/user/UserTypeEnum.java" />
-        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/enumeration/product/ProdStateEnum.java" />
-        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/enumeration/order/OrderStateEnum.java" />
-        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/enumeration/order/PayModeEnum.java" />
-        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/enumeration/order/ProcessReqEnum.java" />
-        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/enumeration/order/ReceiptTypeEnum.java" />
-        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/entity/user/UserEntity.java" />
-        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/entity/user/MenuEntity.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/entity/user/LocationEntity.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/entity/user/CommentEntity.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/entity/user/ArticleEntity.java" />
@@ -214,6 +177,23 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/order/OrderProcessReq.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/order/OrderQueryReq.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/order/OrderUpdateReq.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/BrandInsertReq.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/BrandQueryReq.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/BrandUpdateReq.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/CategoryQueryReq.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/ProdInsertReq.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/ProdQueryReq.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/ProdUpdateReq.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/AdminCreateReq.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/LocationCreateReq.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/LocationUpdateReq.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/LoginReq.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/RegisterReq.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/RoleMenuReq.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/RolePermissionReq.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/UserQueryReq.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/UserStateReq.java" />
       </list>
     </option>
   </component>
@@ -235,8 +215,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="349" />
-    <option name="y" value="58" />
+    <option name="x" value="572" />
+    <option name="y" value="57" />
     <option name="width" value="1280" />
     <option name="height" value="663" />
   </component>
@@ -329,7 +309,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="gaoxi" type="462c0819:PsiDirectoryNode" />
               <item name="req" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -466,15 +446,15 @@
       <updated>1531986421047</updated>
       <workItem from="1531986423078" duration="8153000" />
       <workItem from="1532049845100" duration="11539000" />
-      <workItem from="1532305299008" duration="497000" />
+      <workItem from="1532305299008" duration="1176000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20189000" />
+    <option name="totallyTimeSpent" value="20868000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="349" y="58" width="1280" height="663" extended-state="0" />
+    <frame x="572" y="57" width="1280" height="663" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -530,171 +510,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Analysis/src/main/java/com/gaoxi/analysis/GaoxiAnalysisApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#257#258#0" expanded="false" />
-            <element signature="e#332#333#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Redis/src/main/java/com/gaoxi/redis/RedisConn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Redis/src/main/java/com/gaoxi/redis/GaoxiRedisApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Redis/src/main/java/com/gaoxi/redis/CacheService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="69" column="59" lean-forward="false" selection-start-line="69" selection-start-column="59" selection-end-line="69" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2139#2153#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Redis/src/main/java/com/gaoxi/redis/service/RedisServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/enumeration/BaseEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/enumeration/HttpMethodEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/enumeration/OrderEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/enumeration/user/UserStateEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/enumeration/product/ProdStateEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/enumeration/order/OrderStateEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/enumeration/order/PayModeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#381#382#0" expanded="false" />
-            <element signature="e#408#409#0" expanded="false" />
-            <element signature="e#452#453#0" expanded="false" />
-            <element signature="e#478#479#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/enumeration/order/ProcessReqEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/enumeration/order/ReceiptTypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/entity/user/MenuEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/entity/user/LocationEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="e#404#405#0" expanded="false" />
-            <element signature="e#429#430#0" expanded="false" />
-            <element signature="e#465#466#0" expanded="false" />
-            <element signature="e#493#494#0" expanded="false" />
-            <element signature="e#528#529#0" expanded="false" />
-            <element signature="e#559#560#0" expanded="false" />
-            <element signature="e#607#608#0" expanded="false" />
-            <element signature="e#647#648#0" expanded="false" />
-            <element signature="e#678#679#0" expanded="false" />
-            <element signature="e#705#706#0" expanded="false" />
-            <element signature="e#745#746#0" expanded="false" />
-            <element signature="e#777#778#0" expanded="false" />
-            <element signature="e#809#810#0" expanded="false" />
-            <element signature="e#837#838#0" expanded="false" />
-            <element signature="e#879#880#0" expanded="false" />
-            <element signature="e#913#914#0" expanded="false" />
-            <element signature="e#948#949#0" expanded="false" />
-            <element signature="e#979#980#0" expanded="false" />
-            <element signature="e#1027#1028#0" expanded="false" />
-            <element signature="e#1067#1068#0" expanded="false" />
-            <element signature="e#1100#1101#0" expanded="false" />
-            <element signature="e#1129#1130#0" expanded="false" />
-            <element signature="e#1173#1174#0" expanded="false" />
-            <element signature="e#1209#1210#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/entity/user/CommentEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/entity/user/PermissionEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -741,6 +556,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -832,6 +648,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -839,6 +656,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -853,6 +671,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="50" column="26" lean-forward="false" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1137,6 +956,479 @@
             <element signature="e#4030#4031#0" expanded="true" />
             <element signature="e#4078#4079#0" expanded="true" />
             <element signature="e#4118#4119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/order/OrderUpdateReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="61" column="37" lean-forward="false" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
+          <folding>
+            <element signature="e#494#495#0" expanded="false" />
+            <element signature="e#519#520#0" expanded="false" />
+            <element signature="e#555#556#0" expanded="false" />
+            <element signature="e#583#584#0" expanded="false" />
+            <element signature="e#625#626#0" expanded="false" />
+            <element signature="e#662#663#0" expanded="false" />
+            <element signature="e#723#724#0" expanded="false" />
+            <element signature="e#775#776#0" expanded="false" />
+            <element signature="e#811#812#0" expanded="false" />
+            <element signature="e#843#844#0" expanded="false" />
+            <element signature="e#893#894#0" expanded="false" />
+            <element signature="e#935#936#0" expanded="false" />
+            <element signature="e#974#975#0" expanded="false" />
+            <element signature="e#1008#1009#0" expanded="false" />
+            <element signature="e#1063#1064#0" expanded="false" />
+            <element signature="e#1109#1110#0" expanded="false" />
+            <element signature="e#1146#1147#0" expanded="false" />
+            <element signature="e#1179#1180#0" expanded="false" />
+            <element signature="e#1231#1232#0" expanded="false" />
+            <element signature="e#1275#1276#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/BrandInsertReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/BrandUpdateReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/CategoryQueryReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/ProdInsertReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1513">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1151#1152#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1440#1441#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1507#1508#0" expanded="true" />
+            <element signature="e#1541#1542#0" expanded="true" />
+            <element signature="e#1570#1571#0" expanded="true" />
+            <element signature="e#1598#1599#0" expanded="true" />
+            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1671#1672#0" expanded="true" />
+            <element signature="e#1704#1705#0" expanded="true" />
+            <element signature="e#1733#1734#0" expanded="true" />
+            <element signature="e#1777#1778#0" expanded="true" />
+            <element signature="e#1813#1814#0" expanded="true" />
+            <element signature="e#1855#1856#0" expanded="true" />
+            <element signature="e#1893#1894#0" expanded="true" />
+            <element signature="e#1955#1956#0" expanded="true" />
+            <element signature="e#2009#2010#0" expanded="true" />
+            <element signature="e#2052#2053#0" expanded="true" />
+            <element signature="e#2091#2092#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#2211#2212#0" expanded="true" />
+            <element signature="e#2251#2252#0" expanded="true" />
+            <element signature="e#2287#2288#0" expanded="true" />
+            <element signature="e#2345#2346#0" expanded="true" />
+            <element signature="e#2395#2396#0" expanded="true" />
+            <element signature="e#2432#2433#0" expanded="true" />
+            <element signature="e#2464#2465#0" expanded="true" />
+            <element signature="e#2515#2516#0" expanded="true" />
+            <element signature="e#2557#2558#0" expanded="true" />
+            <element signature="e#2591#2592#0" expanded="true" />
+            <element signature="e#2621#2622#0" expanded="true" />
+            <element signature="e#2667#2668#0" expanded="true" />
+            <element signature="e#2705#2706#0" expanded="true" />
+            <element signature="e#2747#2748#0" expanded="true" />
+            <element signature="e#2785#2786#0" expanded="true" />
+            <element signature="e#2847#2848#0" expanded="true" />
+            <element signature="e#2901#2902#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/ProdQueryReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-477">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#1275#1276#0" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1453#1454#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1529#1530#0" expanded="true" />
+            <element signature="e#1587#1588#0" expanded="true" />
+            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+            <element signature="e#1713#1714#0" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
+            <element signature="e#1821#1822#0" expanded="true" />
+            <element signature="e#1855#1856#0" expanded="true" />
+            <element signature="e#1885#1886#0" expanded="true" />
+            <element signature="e#1931#1932#0" expanded="true" />
+            <element signature="e#1969#1970#0" expanded="true" />
+            <element signature="e#2010#2011#0" expanded="true" />
+            <element signature="e#2046#2047#0" expanded="true" />
+            <element signature="e#2105#2106#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#2191#2192#0" expanded="true" />
+            <element signature="e#2223#2224#0" expanded="true" />
+            <element signature="e#2273#2274#0" expanded="true" />
+            <element signature="e#2315#2316#0" expanded="true" />
+            <element signature="e#2355#2356#0" expanded="true" />
+            <element signature="e#2390#2391#0" expanded="true" />
+            <element signature="e#2447#2448#0" expanded="true" />
+            <element signature="e#2495#2496#0" expanded="true" />
+            <element signature="e#2535#2536#0" expanded="true" />
+            <element signature="e#2570#2571#0" expanded="true" />
+            <element signature="e#2627#2628#0" expanded="true" />
+            <element signature="e#2675#2676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/ProdUpdateReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/product/BrandQueryReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/AdminCreateReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/LocationCreateReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-484">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#874#875#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/LocationUpdateReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/LoginReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-484">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/RegisterReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-844">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#875#876#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/RoleMenuReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/RolePermissionReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/UserQueryReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#942#943#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+            <element signature="e#1443#1444#0" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
+            <element signature="e#1520#1521#0" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+            <element signature="e#1603#1604#0" expanded="true" />
+            <element signature="e#1645#1646#0" expanded="true" />
+            <element signature="e#1678#1679#0" expanded="true" />
+            <element signature="e#1707#1708#0" expanded="true" />
+            <element signature="e#1751#1752#0" expanded="true" />
+            <element signature="e#1787#1788#0" expanded="true" />
+            <element signature="e#1831#1832#0" expanded="true" />
+            <element signature="e#1871#1872#0" expanded="true" />
+            <element signature="e#1937#1938#0" expanded="true" />
+            <element signature="e#1995#1996#0" expanded="true" />
+            <element signature="e#2037#2038#0" expanded="true" />
+            <element signature="e#2075#2076#0" expanded="true" />
+            <element signature="e#2137#2138#0" expanded="true" />
+            <element signature="e#2191#2192#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="true" />
+            <element signature="e#2280#2281#0" expanded="true" />
+            <element signature="e#2351#2352#0" expanded="true" />
+            <element signature="e#2413#2414#0" expanded="true" />
+            <element signature="e#2448#2449#0" expanded="true" />
+            <element signature="e#2479#2480#0" expanded="true" />
+            <element signature="e#2527#2528#0" expanded="true" />
+            <element signature="e#2567#2568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Common-Service-Facade/src/main/java/com/gaoxi/req/user/UserStateReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
           </folding>
         </state>
       </provider>
