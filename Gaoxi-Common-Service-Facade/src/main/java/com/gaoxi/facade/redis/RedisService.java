@@ -30,7 +30,7 @@ public interface RedisService {
     /**
      * 获取指定key
      */
-    Serializable get(final String key);
+    Object get(final String key);
 
     /**
      * 添加key-value（使用默认失效时间）
