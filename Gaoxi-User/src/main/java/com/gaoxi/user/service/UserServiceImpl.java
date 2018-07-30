@@ -189,12 +189,17 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void deleteLocation(String locationId, String userId) {
-
+        // 参数校验
+        checkParam(locationId, userId);
+        userDAO.deleteLocation(locationId, userId);
     }
 
     @Override
     public void modifyLocation(LocationUpdateReq locationUpdateReq, String userId) {
-
+        // 参数校验
+        checkParam(locationUpdateReq, userId);
+        // 修改收货地址
+        userDAO.updateLocation(locationUpdateReq, userId);
     }
 
 
