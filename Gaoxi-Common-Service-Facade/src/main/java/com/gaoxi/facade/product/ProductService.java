@@ -30,7 +30,7 @@ public interface ProductService {
     /**
      * 新增类别
      */
-    Result createCategoty(CategoryEntity categoryEntity);
+    Result createCategory(CategoryEntity categoryEntity);
 
     /**
      * 增量更新类别
