@@ -22,8 +22,7 @@ public abstract class BaseChangeStateComponent extends BaseComponent {
     @Autowired
     private OrderDAO orderDAO;
 
-
-    /** 状态改变前的前置处理 */
+    /** 状态改变前的前置处理 **/
     @Override
     protected void preHandle(OrderProcessContext orderProcessContext) {
 
@@ -34,7 +33,6 @@ public abstract class BaseChangeStateComponent extends BaseComponent {
     protected void afterHandle(OrderProcessContext orderProcessContext) {
 
     }
-
 
     /**
      * 将指定订单的状态更新成指定值
@@ -96,7 +94,6 @@ public abstract class BaseChangeStateComponent extends BaseComponent {
     public void handle(OrderProcessContext orderProcessContext) {
         // 设置目标状态
         setTargetOrderState();
-
         // 前置处理
         this.preHandle(orderProcessContext);
         if (this.isStop) {
