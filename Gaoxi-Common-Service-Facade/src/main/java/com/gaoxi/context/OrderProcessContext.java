@@ -1,6 +1,8 @@
 package com.gaoxi.context;
 
 
+import com.gaoxi.req.order.OrderProcessReq;
+
 import java.io.Serializable;
 
 /**
