@@ -170,5 +170,4 @@
         FROM product
         WHERE top_cate_entity = #{categoryId} OR sub_categ_entity = #{categoryId}
     </select>
-
 </mapper>
