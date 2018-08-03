@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="796f0023-5c3f-409c-aa75-891cb5a67382" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/component/checkstock/CommonCheckStockComponent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/processor/CancelOrderProcessor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/processor/ConfirmDeliveryProcessor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/processor/ConfirmReceiveProcessor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/processor/PayProcessor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/processor/PlaceOrderProcessor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/init/InitComponentList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/init/InitProcessorMap.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/component/checkstock/BaseCheckStockComponent.java" afterPath="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/component/checkstock/BaseCheckStockComponent.java" />
-      <change beforePath="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/engine/ProcessEngine.java" afterPath="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/engine/ProcessEngine.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,25 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PlaceOrderProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/processor/PlaceOrderProcessor.java">
+      <file leaf-file-name="InitComponentList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/init/InitComponentList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1172#1173#0" expanded="true" />
-                <element signature="e#1228#1229#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProcessEngine.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/engine/ProcessEngine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+            <state relative-caret-position="716">
+              <caret line="66" column="9" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,37 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InjectProcessors.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/annotation/InjectProcessors.java">
+      <file leaf-file-name="InitProcessorMap.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/init/InitProcessorMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="18" lean-forward="false" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CancelOrderProcessor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/processor/CancelOrderProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#897#898#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InjectComponents.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/annotation/InjectComponents.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            <state relative-caret-position="346">
+              <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,8 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Gaoxi-Product/src/main/resources/application-test.properties" />
-        <option value="$PROJECT_DIR$/Gaoxi-Product/src/main/resources/application-prod.properties" />
         <option value="$PROJECT_DIR$/Gaoxi-Product/src/main/resources/mybatis/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/Gaoxi-Product/src/main/resources/mybatis/mapper/BrandMapper.xml" />
         <option value="$PROJECT_DIR$/Gaoxi-Product/src/main/resources/mybatis/mapper/CategoryMapper.xml" />
@@ -195,6 +147,8 @@
         <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/component/checkstock/BaseCheckStockComponent.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/processor/PlaceOrderProcessor.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/engine/ProcessEngine.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/init/InitComponentList.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/init/InitProcessorMap.java" />
       </list>
     </option>
   </component>
@@ -336,44 +290,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="gaoxi" type="462c0819:PsiDirectoryNode" />
               <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="checkstock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dubbo-Docker-Jenkins" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="Gaoxi-Order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gaoxi" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dubbo-Docker-Jenkins" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="Gaoxi-Order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gaoxi" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="processor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dubbo-Docker-Jenkins" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="Gaoxi-Order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gaoxi" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="init" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -518,15 +435,15 @@
       <workItem from="1532305299008" duration="2536000" />
       <workItem from="1532391305922" duration="10635000" />
       <workItem from="1532840815354" duration="17962000" />
-      <workItem from="1533283482361" duration="4656000" />
+      <workItem from="1533283482361" duration="5923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55481000" />
+    <option name="totallyTimeSpent" value="56748000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="338" y="23" width="1280" height="737" extended-state="0" />
+    <frame x="49" y="22" width="1280" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -582,23 +499,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="10980">
-            <caret line="732" column="123" lean-forward="false" selection-start-line="732" selection-start-column="123" selection-end-line="732" selection-end-column="123" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Product/src/main/resources/mybatis/mapper/ProductMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="169" column="7" lean-forward="true" selection-start-line="169" selection-start-column="7" selection-end-line="169" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/util/OrderKeyGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1050,8 +950,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/engine/ProcessEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        <state relative-caret-position="229">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/init/InitComponentList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="66" column="9" lean-forward="false" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/init/InitProcessorMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
