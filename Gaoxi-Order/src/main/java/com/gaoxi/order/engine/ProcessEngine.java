@@ -4,6 +4,7 @@ import com.gaoxi.context.OrderProcessContext;
 import com.gaoxi.enumeration.order.ProcessReqEnum;
 import com.gaoxi.exception.CommonSysException;
 import com.gaoxi.exception.ExpCodeEnum;
+import com.gaoxi.order.annotation.InjectProcessors;
 import com.gaoxi.order.processor.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -81,7 +82,6 @@ public class ProcessEngine {
             throw new CommonSysException(ExpCodeEnum.PROCESSREQ_USERID_NULL);
         }
     }
-
 
 
 }
