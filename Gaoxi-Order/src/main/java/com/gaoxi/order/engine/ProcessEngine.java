@@ -33,8 +33,6 @@ public class ProcessEngine {
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
-
-
     /**
      * 请求受理函数
      * @param orderProcessContext 订单受理上下文(包含：req+rsp)
@@ -42,11 +40,9 @@ public class ProcessEngine {
     public void process(OrderProcessContext orderProcessContext) {
         // 校验参数
         checkParam(orderProcessContext);
-
         // 获取受理器
         Processor processor = processorMap.get(orderProcessContext.getOrderProcessReq().getProcessReqEnum());
         System.out.println(processorMap);
-
         // 受理
         processor.handle(orderProcessContext);
     }
