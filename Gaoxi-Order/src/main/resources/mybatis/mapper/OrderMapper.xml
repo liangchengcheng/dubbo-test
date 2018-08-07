@@ -230,5 +230,4 @@
         VALUES
         (#{productOrderEntity.productEntity.id},#{productOrderEntity.orderId},#{productOrderEntity.count})
     </insert>
-
 </mapper>

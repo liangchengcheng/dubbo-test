@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="796f0023-5c3f-409c-aa75-891cb5a67382" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/service/OrderServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Controller/src/main/java/com/gaoxi/annotation/AuthScan.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Controller/src/main/java/com/gaoxi/annotation/Login.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Controller/src/main/java/com/gaoxi/annotation/Permission.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Gaoxi-Controller/src/main/java/com/gaoxi/annotation/Role.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/engine/ProcessEngine.java" afterPath="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/engine/ProcessEngine.java" />
+      <change beforePath="$PROJECT_DIR$/Gaoxi-Order/src/main/resources/mybatis/mapper/OrderMapper.xml" afterPath="$PROJECT_DIR$/Gaoxi-Order/src/main/resources/mybatis/mapper/OrderMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,23 +42,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OrderServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/service/OrderServiceImpl.java">
+      <file leaf-file-name="Permission.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gaoxi-Controller/src/main/java/com/gaoxi/annotation/Permission.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="118" column="26" lean-forward="false" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProcessEngine.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/engine/ProcessEngine.java">
+      <file leaf-file-name="Role.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gaoxi-Controller/src/main/java/com/gaoxi/annotation/Role.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,10 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Gaoxi-Product/src/main/resources/mybatis/mapper/CategoryMapper.xml" />
-        <option value="$PROJECT_DIR$/Gaoxi-Product/src/main/resources/mybatis/mapper/ProductMapper.xml" />
-        <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/util/OrderKeyGenerator.java" />
-        <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/GaoxiOrderApplication.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/redis/RedisConn.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/redis/CacheService.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/processor/Processor.java" />
@@ -121,7 +119,6 @@
         <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/resources/application-prod.properties" />
         <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/resources/mybatis/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/resources/mybatis/mapper/OrderMapper.xml" />
         <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/component/createorder/CreateOrderComponent.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/component/datatransfer/BaseDataTransferComponent.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/component/datatransfer/ProdCountMapTransferComponent.java" />
@@ -147,6 +144,11 @@
         <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/service/RedisServiceImpl.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/service/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/engine/ProcessEngine.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Order/src/main/resources/mybatis/mapper/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/Gaoxi-Controller/src/main/java/com/gaoxi/annotation/AuthScan.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Controller/src/main/java/com/gaoxi/annotation/Login.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Controller/src/main/java/com/gaoxi/annotation/Permission.java" />
+        <option value="$PROJECT_DIR$/Gaoxi-Controller/src/main/java/com/gaoxi/annotation/Role.java" />
       </list>
     </option>
   </component>
@@ -201,106 +203,58 @@
             <path>
               <item name="Dubbo-Docker-Jenkins" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="Gaoxi-Order" type="462c0819:PsiDirectoryNode" />
+              <item name="Gaoxi-Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dubbo-Docker-Jenkins" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="Gaoxi-Order" type="462c0819:PsiDirectoryNode" />
+              <item name="Gaoxi-Controller" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dubbo-Docker-Jenkins" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="Gaoxi-Order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dubbo-Docker-Jenkins" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="Gaoxi-Order" type="462c0819:PsiDirectoryNode" />
+              <item name="Gaoxi-Controller" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dubbo-Docker-Jenkins" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="Gaoxi-Order" type="462c0819:PsiDirectoryNode" />
+              <item name="Gaoxi-Controller" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dubbo-Docker-Jenkins" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="Gaoxi-Order" type="462c0819:PsiDirectoryNode" />
+              <item name="Gaoxi-Controller" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gaoxi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dubbo-Docker-Jenkins" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="Gaoxi-Order" type="462c0819:PsiDirectoryNode" />
+              <item name="Gaoxi-Controller" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="gaoxi" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Dubbo-Docker-Jenkins" type="b2602c69:ProjectViewProjectNode" />
               <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="Gaoxi-Order" type="462c0819:PsiDirectoryNode" />
+              <item name="Gaoxi-Controller" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="gaoxi" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
               <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dubbo-Docker-Jenkins" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="Gaoxi-Order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gaoxi" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dubbo-Docker-Jenkins" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="Gaoxi-Order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gaoxi" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="init" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Dubbo-Docker-Jenkins" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="Gaoxi-Order" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="gaoxi" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -445,15 +399,15 @@
       <workItem from="1532305299008" duration="2536000" />
       <workItem from="1532391305922" duration="10635000" />
       <workItem from="1532840815354" duration="17962000" />
-      <workItem from="1533283482361" duration="10570000" />
+      <workItem from="1533283482361" duration="13280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61395000" />
+    <option name="totallyTimeSpent" value="64105000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="547" y="32" width="1280" height="737" extended-state="0" />
+    <frame x="632" y="65" width="1280" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -548,47 +502,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/redis/CacheService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#2146#2160#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/component/pay/AlipayComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/component/pay/WechatPayComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/component/pay/UnionPayComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/component/pay/CommonPayComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -687,22 +600,6 @@
         <state relative-caret-position="195">
           <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/resources/mybatis/mapper/OrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="213" column="38" lean-forward="true" selection-start-line="213" selection-start-column="38" selection-end-line="213" selection-end-column="38" />
-          <folding>
-            <element signature="e#8733#8737#0" expanded="true" />
-            <element signature="e#8952#8956#0" expanded="true" />
-            <marker date="1533292157000" expanded="true" signature="9340:9653" ph="UPDATE gaoxi.orders... " />
-            <marker date="1533292157000" expanded="true" signature="9716:9877" ph="DELETE FROM gaoxi.order_state_time... " />
-            <marker date="1533292157000" expanded="true" signature="9941:10144" ph="INSERT INTO gaoxi.order_state_time... " />
-            <marker date="1533292157000" expanded="true" signature="10197:10659" ph="INSERT INTO gaoxi.orders... " />
-            <marker date="1533292157000" expanded="true" signature="10720:10912" ph="INSERT INTO gaoxi.product_order... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,8 +920,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/java/com/gaoxi/order/engine/ProcessEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        <state relative-caret-position="400">
+          <caret line="75" column="19" lean-forward="true" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Order/src/main/resources/mybatis/mapper/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="114" column="7" lean-forward="false" selection-start-line="114" selection-start-column="7" selection-end-line="114" selection-end-column="7" />
+          <folding>
+            <element signature="e#8733#8737#0" expanded="true" />
+            <element signature="e#8952#8956#0" expanded="true" />
+            <marker date="1533602924000" expanded="true" signature="9340:9653" ph="UPDATE gaoxi.orders... " />
+            <marker date="1533602924000" expanded="true" signature="9716:9877" ph="DELETE FROM gaoxi.order_state_time... " />
+            <marker date="1533602924000" expanded="true" signature="9941:10144" ph="INSERT INTO gaoxi.order_state_time... " />
+            <marker date="1533602924000" expanded="true" signature="10197:10659" ph="INSERT INTO gaoxi.orders... " />
+            <marker date="1533602924000" expanded="true" signature="10720:10912" ph="INSERT INTO gaoxi.product_order... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Controller/src/main/java/com/gaoxi/annotation/AuthScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Controller/src/main/java/com/gaoxi/annotation/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Controller/src/main/java/com/gaoxi/annotation/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gaoxi-Controller/src/main/java/com/gaoxi/annotation/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
