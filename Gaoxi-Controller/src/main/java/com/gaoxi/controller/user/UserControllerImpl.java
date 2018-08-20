@@ -37,11 +37,15 @@ public class UserControllerImpl implements UserController {
     @Reference(version = "1.0.0")
     private RedisService redisService;
 
-    /** Session有效时间 */
+    /**
+     * Session有效时间
+     */
     @Value("${session.expireTime}")
     private long sessionExpireTime;
 
-    /** HTTP Response中Session ID 的名字 */
+    /**
+     * HTTP Response中Session ID 的名字
+     */
     @Value("${session.SessionIdName}")
     private String sessionIdName;
 
@@ -72,7 +76,6 @@ public class UserControllerImpl implements UserController {
         // TODO 暂时存储本地
         // redisService.set(sessionID, userEntity, sessionExpireTime);
         RedisServiceTemp.userMap.remove(sessionID);
-
         // 将SessionID从HTTP响应头中删除
         Cookie cookie = new Cookie(sessionIdName, null);
         httpRsp.addCookie(cookie);
@@ -92,7 +95,7 @@ public class UserControllerImpl implements UserController {
     public Result isLogin(HttpServletRequest request) {
         String sessionId = getSessionID(request);
         UserEntity userEntity = getUserEntity(sessionId);
-        if (userEntity==null) {
+        if (userEntity == null) {
             return newFailureResult();
         }
         return newSuccessResult(userEntity);
@@ -124,10 +127,8 @@ public class UserControllerImpl implements UserController {
 
     @Override
     public Result<List<RoleEntity>> findRoles() {
-
         // 查询
         List<RoleEntity> roleEntityList = userService.findRoles();
-
         // 成功
         return newSuccessResult(roleEntityList);
     }
@@ -136,7 +137,6 @@ public class UserControllerImpl implements UserController {
     public Result deleteRole(String roleId) {
         // 删除
         userService.deleteRole(roleId);
-
         // 成功
         return newSuccessResult();
     }
@@ -145,34 +145,30 @@ public class UserControllerImpl implements UserController {
     public Result updateMenuOfRole(RoleMenuReq roleMenuReq) {
         // 更新
         userService.updateMenuOfRole(roleMenuReq);
-
         // 成功
         return newSuccessResult();
     }
 
     @Override
     public Result updatePermissionOfRole(RolePermissionReq rolePermissionReq) {
-        // 更新
+        // 更新权限
         userService.updatePermissionOfRole(rolePermissionReq);
-
         // 成功
         return newSuccessResult();
     }
 
     @Override
     public Result<List<PermissionEntity>> findPermissions() {
-        // 查询
+        // 查询权限
         List<PermissionEntity> permissionEntityList = userService.findPermissions();
-
         // 成功
         return newSuccessResult(permissionEntityList);
     }
 
     @Override
     public Result<List<MenuEntity>> findMenus() {
-        // 查询
+        // 查询菜单
         List<MenuEntity> menuEntityList = userService.findMenus();
-
         // 成功
         return newSuccessResult(menuEntityList);
     }
@@ -181,7 +177,7 @@ public class UserControllerImpl implements UserController {
     public Result<List<LocationEntity>> findLocations(HttpServletRequest httpReq) {
         // 获取userId
         String userId = getUserId(httpReq);
-        // 查询
+        // 查询地址
         List<LocationEntity> locationEntityList = userService.findLocations(userId);
         return newSuccessResult(locationEntityList);
     }
@@ -190,7 +186,7 @@ public class UserControllerImpl implements UserController {
     public Result<String> createLocation(LocationCreateReq locationCreateReq, HttpServletRequest httpReq) {
         // 获取UserID
         String userId = getUserId(httpReq);
-        // 新增
+        // 新增地址
         String locationId = userService.createLocation(locationCreateReq, userId);
         // 新增成功
         return newSuccessResult(locationId);
@@ -200,7 +196,7 @@ public class UserControllerImpl implements UserController {
     public Result deleteLocation(String locationId, HttpServletRequest httpReq) {
         // 获取UserID
         String userId = getUserId(httpReq);
-        // 删除
+        // 删除地址
         userService.deleteLocation(locationId, userId);
         // 删除成功
         return newSuccessResult();
@@ -218,8 +214,9 @@ public class UserControllerImpl implements UserController {
 
     /**
      * 处理登录成功
+     *
      * @param userEntity 用户信息
-     * @param httpRsp HTTP响应参数
+     * @param httpRsp    HTTP响应参数
      */
     private void doLoginSuccess(UserEntity userEntity, HttpServletResponse httpRsp) {
         // 生成SessionID
@@ -236,6 +233,7 @@ public class UserControllerImpl implements UserController {
 
     /**
      * 获取SessionID
+     *
      * @param request 当前的请求对象
      * @return SessionID的值
      */
@@ -243,7 +241,7 @@ public class UserControllerImpl implements UserController {
         Cookie[] cookies = request.getCookies();
         // 遍历所有cookie，找出SessionID
         String sessionID = null;
-        if (cookies!=null && cookies.length>0) {
+        if (cookies != null && cookies.length > 0) {
             for (Cookie cookie : cookies) {
                 if (sessionIdName.equals(cookie.getName())) {
                     sessionID = cookie.getValue();
@@ -268,7 +266,7 @@ public class UserControllerImpl implements UserController {
         // TODO 暂时存储本地
         // Object userEntity = redisService.get(sessionID);
         Object userEntity = RedisServiceTemp.userMap.get(sessionID);
-        if (userEntity==null) {
+        if (userEntity == null) {
             return null;
         }
         return (UserEntity) userEntity;
@@ -276,6 +274,7 @@ public class UserControllerImpl implements UserController {
 
     /**
      * 获取用户ID
+     *
      * @param httpReq HTTP请求
      * @return 用户ID
      */
