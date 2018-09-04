@@ -22,6 +22,7 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
+
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.List;
@@ -38,14 +39,20 @@ public class InitAuth implements CommandLineRunner {
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    /** Redis工具包 */
+    /**
+     * Redis工具包
+     */
     @Reference(version = "1.0.0")
     private RedisService redisService;
 
-    /** 接口权限列表 */
-    private Map<String,AccessAuthEntity> accessAuthMap = Maps.newHashMap();
+    /**
+     * 接口权限列表
+     */
+    private Map<String, AccessAuthEntity> accessAuthMap = Maps.newHashMap();
 
-    /** 反斜杠 */
+    /**
+     * 反斜杠
+     */
     private static final String Back_Slash = "/";
 
     @Override
@@ -71,19 +78,20 @@ public class InitAuth implements CommandLineRunner {
         // 遍历类
         for (Class clazz : classes) {
             Method[] methods = clazz.getMethods();
-            if (methods==null || methods.length==0) {
+            if (methods == null || methods.length == 0) {
                 continue;
             }
 
             // 遍历函数
             for (Method method : methods) {
+                // 接口访问权限的实体类
                 AccessAuthEntity accessAuthEntity = buildAccessAuthEntity(method);
-                if (accessAuthEntity!=null) {
+                if (accessAuthEntity != null) {
                     // 生成key
                     String key = generateKey(accessAuthEntity);
                     // 存至本地Map
                     accessAuthMap.put(key, accessAuthEntity);
-                    logger.debug("",accessAuthEntity);
+                    logger.debug("", accessAuthEntity);
                 }
             }
         }
@@ -91,12 +99,13 @@ public class InitAuth implements CommandLineRunner {
         // TODO 暂时存储在本地
 //        redisService.setMap(RedisPrefixUtil.Access_Auth_Prefix, accessAuthMap, null);
         RedisServiceTemp.accessAuthMap = accessAuthMap;
-        logger.info("接口访问权限已加载完毕！"+accessAuthMap);
+        logger.info("接口访问权限已加载完毕！" + accessAuthMap);
     }
 
     /**
      * 生成接口权限信息的Key
      * Key = 'AUTH'+请求方式+请求URL
+     *
      * @param accessAuthEntity 接口权限信息
      * @return Key
      */
@@ -107,43 +116,38 @@ public class InitAuth implements CommandLineRunner {
 
     /**
      * 构造AccessAuthEntity对象
-     * @param method
-     * @return
      */
     private AccessAuthEntity buildAccessAuthEntity(Method method) {
         GetMapping getMapping = AnnotationUtil.getAnnotationValueByMethod(method, GetMapping.class);
         PostMapping postMapping = AnnotationUtil.getAnnotationValueByMethod(method, PostMapping.class);
-        PutMapping putMapping= AnnotationUtil.getAnnotationValueByMethod(method, PutMapping.class);
+        PutMapping putMapping = AnnotationUtil.getAnnotationValueByMethod(method, PutMapping.class);
         DeleteMapping deleteMapping = AnnotationUtil.getAnnotationValueByMethod(method, DeleteMapping.class);
 
         AccessAuthEntity accessAuthEntity = null;
-        if (getMapping!=null
-                && getMapping.value()!=null
-                && getMapping.value().length==1
+        if (getMapping != null
+                && getMapping.value() != null
+                && getMapping.value().length == 1
                 && StringUtils.isNotEmpty(getMapping.value()[0])) {
             accessAuthEntity = new AccessAuthEntity();
             accessAuthEntity.setHttpMethodEnum(HttpMethodEnum.GET);
             accessAuthEntity.setUrl(trimUrl(getMapping.value()[0]));
-        }
-        else if (postMapping!=null
-                && postMapping.value()!=null
-                && postMapping.value().length==1
+        } else if (postMapping != null
+                && postMapping.value() != null
+                && postMapping.value().length == 1
                 && StringUtils.isNotEmpty(postMapping.value()[0])) {
             accessAuthEntity = new AccessAuthEntity();
             accessAuthEntity.setHttpMethodEnum(HttpMethodEnum.POST);
             accessAuthEntity.setUrl(trimUrl(postMapping.value()[0]));
-        }
-        else if (putMapping!=null
-                && putMapping.value()!=null
-                && putMapping.value().length==1
+        } else if (putMapping != null
+                && putMapping.value() != null
+                && putMapping.value().length == 1
                 && StringUtils.isNotEmpty(putMapping.value()[0])) {
             accessAuthEntity = new AccessAuthEntity();
             accessAuthEntity.setHttpMethodEnum(HttpMethodEnum.PUT);
             accessAuthEntity.setUrl(trimUrl(putMapping.value()[0]));
-        }
-        else if (deleteMapping!=null
-                && deleteMapping.value()!=null
-                && deleteMapping.value().length==1
+        } else if (deleteMapping != null
+                && deleteMapping.value() != null
+                && deleteMapping.value().length == 1
                 && StringUtils.isNotEmpty(deleteMapping.value()[0])) {
             accessAuthEntity = new AccessAuthEntity();
             accessAuthEntity.setHttpMethodEnum(HttpMethodEnum.DELETE);
@@ -151,7 +155,7 @@ public class InitAuth implements CommandLineRunner {
         }
 
         // 解析@Login 和 @Permission
-        if (accessAuthEntity!=null) {
+        if (accessAuthEntity != null) {
             accessAuthEntity = getLoginAndPermission(method, accessAuthEntity);
             accessAuthEntity.setMethodName(method.getName());
         }
@@ -164,6 +168,7 @@ public class InitAuth implements CommandLineRunner {
      * 处理URL
      * 1. 将URL两侧的斜杠去掉
      * 2. 将URL中的"{xxx}"替换为"*"
+     *
      * @param url 原始URL
      * @return 处理后的URL
      */
@@ -173,25 +178,24 @@ public class InitAuth implements CommandLineRunner {
             url = url.substring(1);
         }
         if (url.endsWith(Back_Slash)) {
-            url = url.substring(0,url.length()-1);
+            url = url.substring(0, url.length() - 1);
         }
 
         // 将"{xxx}"替换为"*"
         // TODO 正则表达式要继续完善（纠正/user/{xxxxx}/{yyyy}——>user/*的情况）
-        url = url.replaceAll("\\{(.*)\\}","*");
+        url = url.replaceAll("\\{(.*)\\}", "*");
         return url;
     }
 
     /**
      * 获取指定方法上的@Login的值和@Role的值
+     *
      * @param method 目标方法
-     * @param accessAuthEntity
-     * @return
      */
     private AccessAuthEntity getLoginAndPermission(Method method, AccessAuthEntity accessAuthEntity) {
         // 获取@Permission的值
         Permission permission = AnnotationUtil.getAnnotationValueByMethod(method, Permission.class);
-        if (permission!=null && StringUtils.isNotEmpty(permission.value())) {
+        if (permission != null && StringUtils.isNotEmpty(permission.value())) {
             accessAuthEntity.setPermission(permission.value());
             accessAuthEntity.setLogin(true);
             return accessAuthEntity;
@@ -199,7 +203,7 @@ public class InitAuth implements CommandLineRunner {
 
         // 获取@Login的值
         Login login = AnnotationUtil.getAnnotationValueByMethod(method, Login.class);
-        if (login!=null) {
+        if (login != null) {
             accessAuthEntity.setLogin(true);
         }
 
@@ -208,14 +212,14 @@ public class InitAuth implements CommandLineRunner {
     }
 
     public static void main(String[] args) {
-        System.out.println("user:"+trimUrl("user"));
-        System.out.println("{}:"+trimUrl("{}"));
-        System.out.println("/user:"+trimUrl("/user"));
-        System.out.println("/user/:"+trimUrl("/user/"));
-        System.out.println("user/{xxxx}:"+trimUrl("user/{xxxx}"));
-        System.out.println("/user/{xxxxx}/{yyyy}:"+trimUrl("/user/{xxxxx}/{yyyy}"));
-        System.out.println("/user/home/{sdsds}:"+trimUrl("/user/home/{sdsds}"));
-        System.out.println("/user/{home}/{zzzzz}/:"+trimUrl("/user/{home}/{zzzzz}/"));
+        System.out.println("user:" + trimUrl("user"));
+        System.out.println("{}:" + trimUrl("{}"));
+        System.out.println("/user:" + trimUrl("/user"));
+        System.out.println("/user/:" + trimUrl("/user/"));
+        System.out.println("user/{xxxx}:" + trimUrl("user/{xxxx}"));
+        System.out.println("/user/{xxxxx}/{yyyy}:" + trimUrl("/user/{xxxxx}/{yyyy}"));
+        System.out.println("/user/home/{sdsds}:" + trimUrl("/user/home/{sdsds}"));
+        System.out.println("/user/{home}/{zzzzz}/:" + trimUrl("/user/{home}/{zzzzz}/"));
     }
 
 }

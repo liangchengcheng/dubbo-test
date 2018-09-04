@@ -6,9 +6,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 /**
- * @author 大闲人柴毛毛
- * @date 2017/11/1 上午10:28
- * @description 注解工具包
+ * 注解工具包
  */
 public class AnnotationUtil {
 
