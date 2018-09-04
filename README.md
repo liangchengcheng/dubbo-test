@@ -455,6 +455,8 @@ docker pull docker.io/jenkins/jenkins
 由于Jenkins运行在Tomcat容器中，因此我们将容器的8080端口映射到宿主机的10080端口上：
 ```
 docker run --name jenkins -p 10080:8080 docker.io/jenkins/jenkins
+
+docker run -p 10080:8080 -v /usr/local/var/jenkins:/var/jenkins_home --name j03 -idt jenkins
 ```
 
 - 初始化Jenkins<br>
